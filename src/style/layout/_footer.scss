@@ -1,0 +1,122 @@
+footer {
+    width: 100%;
+    height: auto;
+    background: #C8D7EE;
+
+    .footer__menu--grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        // gap: 155px;
+        @media ($media-xs) {
+            isplay: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .footer__menu--logo {
+            a {
+                display: flex;
+                align-items: center;
+                margin-left: 23px;
+                padding-top: 53px;
+            }
+        }
+
+        .footer__menu-link {
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    padding: 6px;
+
+                    h5 {
+                        font-size: 20px;
+                        line-height: 25px;
+                        font-weight: $bold;
+                        font-family: $font-3;
+                        color: $secondary;
+                        margin: 0;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-size: 20px;
+                        line-height: 25px;
+                        font-weight: $regular;
+                        font-family: $font-3;
+                        color: $black;
+                        // line-height: 2;
+                    }
+                }
+            }
+        }
+
+        .footer__menu-contact--info {
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    text-decoration: none;
+                    font-size: 20px;
+                    line-height: 25px;
+                    font-weight: $regular;
+                    font-family: $font-3;
+                    color: $black;
+                    padding: 6px;
+
+                    h5 {
+                        font-size: 20px;
+                        line-height: 25px;
+                        font-weight: $bold;
+                        font-family: $font-3;
+                        color: $secondary;
+                        margin: 0;
+                    }
+
+                    span {
+                        a {
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 25px;
+                            color: $secondary;
+                            font-weight: $semi-bold;
+                        }
+                    }
+
+                    .menu__contact--social-links {
+                        a {
+                            padding-right: 33px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer__insured-by-logo {
+
+            text-align: end;
+            padding-right: 24px;
+
+            ul {
+                li {
+                    list-style: none;
+
+
+                    h5 {
+                        font-size: 20px;
+                        line-height: 25px;
+                        font-weight: $bold;
+                        font-family: $font-3;
+                        color: $secondary;
+                        margin-top: 0;
+                        margin-bottom: 8px;
+                    }
+
+                    a {}
+                }
+            }
+        }
+    }
+}
