@@ -1,0 +1,106 @@
+.services-banner {
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    background: $banner;
+
+    .container {
+        .services-wrapper {
+            padding-top: 69px;
+
+            .services__header {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 92px;
+
+                h2 {
+                    margin: 0;
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: $cta;
+                    font-weight: $semi-bold;
+                    font-family: $font-3;
+                }
+            }
+
+            .services__image-discription--flex {
+                display: flex;
+                justify-content: space-around;
+
+
+                .services__card--grid {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    align-items: center;
+
+                    .services__card--svg {
+
+                        max-width: 120px;
+
+                        max-height: 110px;
+
+                        svg {
+                            width: 100%;
+                        }
+                    }
+
+                    .card__header-discription {
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+
+                        h3 {
+                            font-size: 21px;
+                            line-height: 24px;
+                            margin: 0px;
+                            font-weight: $bold;
+                            color: $secondary;
+                            font-family: $font-3;
+                            width: 228px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-family: $font-3;
+                            font-weight: $normal;
+                            color: #65666D;
+                            margin: 0;
+                            padding-top: 10px;
+                            width: 247px;
+                        }
+                    }
+                }
+            }
+
+            .services__button--center {
+                display: flex;
+                justify-content: center;
+                padding-top: 56px;
+
+                .services__see-rates--button {
+                    width: 159px;
+                    height: 80px;
+                    background-color: $white;
+                    border: 3px solid $cta;
+                    border-radius: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: $font-3;
+
+                    a {
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: $cta;
+                        font-family: $font-2;
+                        font-weight: $normal;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

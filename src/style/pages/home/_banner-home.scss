@@ -1,0 +1,79 @@
+.home-banner {
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0;
+    margin: 0;
+    background: $banner;
+
+    .container {
+        .home-banner__image-heading {
+            display: flex;
+            gap: 15px;
+
+            .home-banner__image {
+                width: 681.21px;
+                height: 652.79px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                .home-banner__image--radius {
+                    width: 681.21px;
+                    height: 652.79px;
+
+                    img {
+                        width: 600px;
+                        height: 600px;
+                        border-radius: 50%;
+                    }
+
+                }
+            }
+
+            .home-banner__header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h1 {
+                    font-size: 50px;
+                    line-height: 62px;
+                    font-weight: $bold;
+                    color: $secondary;
+                    font-family: $font-3;
+
+                }
+
+                p {
+                    font-size: 25px;
+                    line-height: 30px;
+                    font-weight: $normal;
+                    color: $secondary;
+                    font-family: $font-3;
+                }
+
+                .home-banner__book-me--button {
+                    width: 168px;
+                    height: 60px;
+                    border-radius: 15px;
+                    background-color: $cta;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: center;
+                    font-family: $font-3;
+
+                    a {
+                        font-size: 18px;
+                        line-height: 22px;
+                        font-weight: $semi-bold;
+                        color: $white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

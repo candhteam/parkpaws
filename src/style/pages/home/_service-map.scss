@@ -1,0 +1,77 @@
+.service-map {
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    background: $banner;
+
+    .container {
+        .service-map__header-map {
+
+            padding-top: 118px;
+
+            .service-map__header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h2 {
+                    margin: 0;
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: $cta;
+                    font-weight: $semi-bold;
+                    font-family: $font-3;
+                }
+
+                p {
+                    font-size: 32px;
+                    line-height: 40px;
+                    font-family: $font-3;
+                    color: rgba(0, 0, 0, 0.8);
+                    font-weight: $regular;
+                }
+            }
+
+
+
+            .location-map {
+                display: flex;
+                justify-content: center;
+
+                iframe {
+                    // width: 100%;
+
+                }
+            }
+
+            .map__button--center {
+                display: flex;
+                justify-content: center;
+                padding-top: 40px;
+                padding-bottom: 39px;
+
+                .map__Book-Me--button {
+                    width: 201px;
+                    height: 76px;
+                    background-color: $cta;
+                    border: 3px solid $cta;
+                    border-radius: 18px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: $font-3;
+
+                    a {
+                        font-size: 23px;
+                        line-height: 28px;
+                        color: $white;
+                        font-family: $font-3;
+                        font-weight: $semi-bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

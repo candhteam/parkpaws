@@ -1,0 +1,149 @@
+.testimonial {
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    background: $banner;
+
+    .container {
+        .testimonial--grid {
+            padding-top: 90px;
+
+            .testimonial__header {
+                display: flex;
+                justify-content: center;
+
+                h2 {
+                    margin: 0;
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: $cta;
+                    font-weight: $semi-bold;
+                    font-family: $font-3;
+                }
+            }
+
+            .testimonial__arrow-box--flex {
+                padding-top: 57px;
+                display: flex;
+                justify-content: center;
+                gap: 71px;
+
+                .card__arrow-box {
+                    width: 348.46px;
+                    height: auto;
+                    background: #EEDEFF;
+                    border-radius: 10px;
+                    position: relative;
+
+                    .arrow-box__header {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        padding: 19px 0 20px 0;
+
+                        h3 {
+                            font-size: 24px;
+                            line-height: 30px;
+                            font-weight: $bold;
+                            color: $secondary;
+                            font-family: $font-3;
+                            margin: 0;
+                        }
+                    }
+
+                    .arrow-box__discription {
+                        // width: 297px;
+                        // height: 195px;
+
+                        p {
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: $secondary;
+                            font-family: $font-3;
+                            font-weight: $regular;
+                            padding: 0 25px 0 25px;
+                        }
+                    }
+
+                }
+
+                .arrow-bottom:after {
+                    position: absolute;
+                    bottom: -19px;
+                    left: 3%;
+                    margin-left: -10px;
+                    content: "";
+                    display: block;
+                    border-left: 23px solid transparent;
+                    border-right: 11px solid transparent;
+                    border-top: 25px solid #eedeff;
+                    border-radius: -92px;
+                    border-radius: 8px;
+
+                }
+            }
+
+            .testimonial__profile-name--flex {
+                padding-top: 20px;
+                display: flex;
+                gap: 76px;
+                justify-content: center;
+
+                .profile__thumbnail-name {
+                    display: flex;
+                    gap: 20px;
+
+                    .testimonial__thubnail-profile {
+                        width: 176px;
+                        height: 176px;
+
+                        img {}
+                    }
+
+                    .thumbnail__name-and-rating {
+                        p {
+                            font-size: 20px;
+                            line-height: 24px;
+                            font-weight: $regular;
+                            color: $secondary;
+                            font-family: $font-1;
+                            margin: 0;
+                        }
+
+                        .thumbnail__rating {
+                            padding-top: 33px;
+                        }
+                    }
+                }
+            }
+
+            .testimonial__button--center {
+                display: flex;
+                justify-content: center;
+                padding-top: 47px;
+
+                .testimonial__read-more--button {
+                    width: 171px;
+                    height: 80px;
+                    background-color: $white;
+                    border: 3px solid $cta;
+                    border-radius: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: $font-3;
+
+                    a {
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: $cta;
+                        font-family: $font-2;
+                        font-weight: $normal;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

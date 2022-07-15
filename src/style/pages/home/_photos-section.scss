@@ -1,0 +1,85 @@
+.Photos {
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    background: $banner;
+
+    .container {
+        .Photos__wrapper--grid {
+            padding-top: 62px;
+
+            .Photos__header {
+                display: flex;
+                justify-content: center;
+
+                h2 {
+                    margin: 0;
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: $cta;
+                    font-weight: $semi-bold;
+                    font-family: $font-3;
+                }
+            }
+
+            .photo-collection--grid {
+                display: grid;
+                grid-template-columns: repeat(3, 0.5fr);
+                gap: 17px;
+
+
+                .photo__image--radius {
+                    img {}
+                }
+            }
+
+            .photo-collection--center {
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+
+                .photo-collection--grid {
+                    display: grid;
+                    grid-template-columns: repeat(3, 0.5fr);
+                    gap: 17px;
+
+
+                    .photo__image--radius {
+                        img {}
+                    }
+                }
+
+            }
+
+            .photos__button--center {
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+
+                .photos__view-gallery--button {
+                    width: 253px;
+                    height: 78px;
+                    background-color: $white;
+                    border: 3px solid $cta;
+                    border-radius: 18px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: $font-3;
+
+                    a {
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: $cta;
+                        font-family: $font-2;
+                        font-weight: $normal;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
