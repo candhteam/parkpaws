@@ -83,3 +83,35 @@
 
     }
 }
+
+@media (max-width:$media-xlg) {
+    .Photos {
+        .container {
+            .Photos__wrapper--grid {
+                .photo-collection--grid {
+                    display: grid;
+                    grid-template-columns: repeat(2, 0.5fr);
+                    gap: 17px;
+                }
+
+                .photo-collection--center {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 30px;
+
+                    .photo-collection--grid {
+                        display: grid;
+                        grid-template-columns: repeat(2, 0.5fr);
+                        gap: 17px;
+
+
+                        .photo__image--radius {
+                            img {}
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

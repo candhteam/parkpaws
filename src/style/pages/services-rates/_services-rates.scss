@@ -1,0 +1,219 @@
+.services-and-rates {
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0;
+    margin: 0;
+    background: $banner;
+
+    .container {
+        .services__benefits {
+            .services__benefits--grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+
+                .services__benefits {
+
+                    .services__image--header {
+                        background-image: url('../static/images/groypwalk.png');
+                        width: 407px;
+                        height: 539.28px;
+                        border-radius: 15px;
+                        text-align: center;
+                        // display: flex;
+                        // flex-direction: column;
+                        // justify-content: center;
+                        position: relatives;
+
+
+
+                        h3 {
+                            margin: 0;
+                            font-size: 50px;
+                            line-height: 62px;
+                            font-weight: $regular;
+                            color: $banner;
+                            font-family: $font-3;
+                            padding-top: 127px;
+                        }
+
+                        p {
+                            margin: 0;
+                            font-size: 40px;
+                            line-height: 50px;
+                            font-weight: $bold;
+                            font-family: $font-3;
+                            color: $banner;
+                            padding-top: 40px;
+                        }
+                    }
+
+                    .benefits__card--overlap {
+                        width: 407px;
+                        height: auto;
+                        background-color: #D9E8FF;
+                        border-radius: 15px;
+                        position: absolute;
+                        top: 420px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .benefit_card--heading {
+                            padding-top: 40px;
+
+                            h4 {
+                                margin: 0;
+                                font-size: 20px;
+                                line-height: 25px;
+                                font-weight: $bold;
+                                color: $black;
+                                font-family: $font-3;
+                            }
+                        }
+
+                        .benefits__card--listing {
+                            display: flex;
+
+                            ul {
+                                li {
+                                    list-style: none;
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 22px;
+                                    padding-top: 20px;
+
+                                    span {
+                                        font-size: 20px;
+                                        line-height: 25px;
+                                        font-weight: $regular;
+                                        font-family: $font-3;
+                                        color: $black;
+                                        width: 260px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .benefit__card--readmore-link {
+                            padding-top: 30px;
+                            text-align: center;
+
+                            a {
+                                font-size: 20px;
+                                line-height: 25px;
+                                font-weight: $regular;
+                                color: $cta;
+                                font-family: $font-3;
+                            }
+
+                            h4 {
+                                margin: 0;
+                                font-size: 20px;
+                                line-height: 25px;
+                                font-weight: $bold;
+                                color: $black;
+                                font-family: $font-3;
+                                padding-top: 20px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                line-height: 20px;
+                                font-weight: $regular;
+                                color: $black;
+                                font-family: $font-3;
+                                margin: 0;
+                                padding-top: 8px;
+                            }
+                        }
+
+                        .benefit__card--to-participate {
+                            padding-top: 30px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            h4 {
+                                margin: 0;
+                                font-size: 20px;
+                                line-height: 25px;
+                                font-weight: $bold;
+                                color: $black;
+                                font-family: $font-3;
+                            }
+
+                            ul {
+                                &::first-line {
+                                    text-decoration: underline;
+                                }
+
+                                li {
+                                    font-size: 16px;
+                                    line-height: 20px;
+                                    font-weight: $regular;
+                                    color: $black;
+                                    font-family: $font-3;
+                                }
+                            }
+                        }
+
+                        .benefit__card--rate {
+                            text-align: center;
+                            padding-top: 30px;
+                            padding-bottom: 40px;
+
+                            h4 {
+                                margin: 0;
+                                font-size: 20px;
+                                line-height: 25px;
+                                font-weight: $bold;
+                                color: $black;
+                                font-family: $font-3;
+                            }
+
+                            p {
+                                font-size: 20px;
+                                line-height: 25px;
+                                font-weight: $regular;
+                                color: $black;
+                                font-family: $font-3;
+                                margin: 0;
+                            }
+                        }
+
+                        .benefit__card--yellow-background {
+                            padding-top: 23px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            h5 {
+                                font-size: 20px;
+                                line-height: 25px;
+                                font-weight: $regular;
+                                color: $black;
+                                font-family: $font-3;
+                                margin: 0;
+                                background-color: #FFEAA0;
+                                width: 100px;
+                            }
+
+                            p {
+                                width: 260px;
+                                font-size: 20px;
+                                line-height: 25px;
+                                font-weight: $regular;
+                                color: $black;
+                                font-family: $font-3;
+                                margin: 0;
+                                padding-top: 6px;
+                                background-color: #FFEAA0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

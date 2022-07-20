@@ -1,0 +1,86 @@
+.about-me {
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0;
+    margin: 0;
+    background: $banner;
+
+    .container {
+        .about-me--grid {
+            display: grid;
+            grid-template-columns: repeat(2, 0.5fr);
+
+            .about-me__card--flex {
+                display: flex;
+                flex-direction: column;
+                gap: 35px;
+                align-items: center;
+
+                .about-me__card__content {
+                    width: 630px;
+                    height: auto;
+                    background: #D8E7FE;
+                    border-radius: 15px;
+
+                    .background3 {
+                        background-color: $cta;
+                    }
+
+                    .about-me__card--header {
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+
+                        h5 {
+                            font-size: 25px;
+                            line-height: 29px;
+                            font-family: $font-1;
+                            font-weight: $regular;
+                            color: $black;
+                            margin: 0;
+                            padding: 36px 0 20px 0;
+                        }
+                    }
+
+                    .about-me__card--discription {
+
+                        p {
+                            font-size: 20px;
+                            line-height: 25px;
+                            font-weight: $regular;
+                            font-family: $font-3;
+                            color: $black;
+                            margin: 0;
+                            padding: 0 24px 36px 24px;
+                        }
+                    }
+                }
+            }
+
+            .about-me__image--flex {
+                display: flex;
+                flex-direction: column;
+                gap: 35px;
+
+                .about-me__image--large-card {
+                    width: 620px;
+                    height: 903px;
+                    background-image: url('../static/images/Agnes About me photo.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .about-me__image--small-card {
+                    width: 630px;
+                    height: 320px;
+                    background-image: url('../static/images/photo 2.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
