@@ -17,13 +17,47 @@
 
 <body>
 
-    <section class="services-and-rates">
+    <!-- navbar starts-->
+
+
+    <header>
         <div class="container">
-            <div class="services__benefits">
-                <div class="services__benefits--grid">
+            <div class="navbar">
+                <div class="logo">
+                    <a href=""><img src="static/svg/Component 8.svg" alt="logo-parkpaws"></a>
+                </div>
+                <div class="nav-list">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="./aboutus.html" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="./services-rates.html" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="./gallery.html" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="./testimonial.html" class="nav-link">Testimonials</a></li>
+
+                    </ul>
+                    <div class="hamberger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <div class="button nav-menu">
+                    <a href="./form.html">Book Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar ends-->
+    <!-- services starts -->
+    <section class="services__rates">
+        <div class="container">
+            <div class="services__and__rates--center">
+                <div class="services-and-rates--grid">
+
                     <div class="services__benefits">
-                        <div class="services__image--header">
-                            <!-- <img src="static/images/groypwalk.png" alt="group-walk"> -->
+                        <div class="services__image--header" id="backgrnd-img1">
+
                             <h3>Group Walks</h3>
                             <p>$20 or $25/hr</p>
                         </div>
@@ -90,11 +124,11 @@
 
                     <div class="services__benefits">
                         <div class="services__image--header">
-                            <!-- <img src="static/images/groypwalk.png" alt="group-walk"> -->
+
                             <h3>Group Walks</h3>
                             <p>$20 or $25/hr</p>
                         </div>
-                        <div class="benefits__card--overlap">
+                        <div class="benefits__card--overlap" id="backgroud-color">
                             <div class="benefit_card--heading">
                                 <h4>Benefits</h4>
                             </div>
@@ -105,49 +139,45 @@
                                             <path
                                                 d="M28.0782 6.12866C25.4583 6.12866 23.8649 6.63426 22.9456 7.06324C21.7659 6.48105 20.4177 6.12866 18.8856 6.12866C17.3535 6.12866 16.0052 6.48105 14.8255 7.06324C13.9062 6.63426 12.3129 6.12866 9.69297 6.12866C5.09667 6.12866 2.03247 18.3855 2.03247 21.4497C2.03247 22.7213 4.05484 23.8857 6.84326 24.3606C7.82381 27.7925 12.4507 30.4124 18.1195 30.6423V24.0849C17.2156 23.518 15.8214 22.4915 15.8214 21.4497C15.8214 19.9176 18.8856 19.9176 18.8856 19.9176C18.8856 19.9176 21.9498 19.9176 21.9498 21.4497C21.9498 22.4915 20.5556 23.518 19.6516 24.0849V30.6423C25.3204 30.4124 29.9473 27.7925 30.9279 24.3606C33.7163 23.8857 35.7387 22.7213 35.7387 21.4497C35.7387 18.3855 32.6745 6.12866 28.0782 6.12866ZM6.85858 21.2505C6.09253 21.0666 5.49502 20.8521 5.09667 20.6836C5.47969 16.4397 8.46729 9.8057 9.76957 9.19286C10.5969 9.19286 11.2251 9.28479 11.7919 9.36139C8.57454 12.9005 7.30289 18.4467 6.85858 21.2505M14.2893 18.3855C13.8829 18.3855 13.4932 18.224 13.2059 17.9367C12.9186 17.6494 12.7572 17.2597 12.7572 16.8534C12.7572 16.026 13.4466 15.3213 14.2893 15.3213C14.6956 15.3213 15.0853 15.4827 15.3726 15.77C15.6599 16.0573 15.8214 16.447 15.8214 16.8534C15.8214 17.7113 15.1319 18.3855 14.2893 18.3855ZM23.4819 18.3855C23.0755 18.3855 22.6858 18.224 22.3985 17.9367C22.1112 17.6494 21.9498 17.2597 21.9498 16.8534C21.9498 16.026 22.6392 15.3213 23.4819 15.3213C23.8882 15.3213 24.2779 15.4827 24.5652 15.77C24.8525 16.0573 25.014 16.447 25.014 16.8534C25.014 17.7113 24.3245 18.3855 23.4819 18.3855ZM30.9125 21.2505C30.4682 18.4467 29.1966 12.9005 25.9792 9.36139C26.5461 9.28479 27.1742 9.19286 28.0016 9.19286C29.3038 9.8057 32.2914 16.4397 32.6745 20.6836C32.2914 20.8521 31.6939 21.0666 30.9125 21.2505V21.2505Z"
                                                 fill="#6933A0" />
-                                        </svg><span>Socialization with other dogs </span></li>
+                                        </svg><span>Train loose-leash walking </span></li>
                                     <li><svg xmlns="http://www.w3.org/2000/svg" width="38" height="37"
                                             viewBox="0 0 38 37" fill="none">
                                             <path
                                                 d="M28.0782 6.12866C25.4583 6.12866 23.8649 6.63426 22.9456 7.06324C21.7659 6.48105 20.4177 6.12866 18.8856 6.12866C17.3535 6.12866 16.0052 6.48105 14.8255 7.06324C13.9062 6.63426 12.3129 6.12866 9.69297 6.12866C5.09667 6.12866 2.03247 18.3855 2.03247 21.4497C2.03247 22.7213 4.05484 23.8857 6.84326 24.3606C7.82381 27.7925 12.4507 30.4124 18.1195 30.6423V24.0849C17.2156 23.518 15.8214 22.4915 15.8214 21.4497C15.8214 19.9176 18.8856 19.9176 18.8856 19.9176C18.8856 19.9176 21.9498 19.9176 21.9498 21.4497C21.9498 22.4915 20.5556 23.518 19.6516 24.0849V30.6423C25.3204 30.4124 29.9473 27.7925 30.9279 24.3606C33.7163 23.8857 35.7387 22.7213 35.7387 21.4497C35.7387 18.3855 32.6745 6.12866 28.0782 6.12866ZM6.85858 21.2505C6.09253 21.0666 5.49502 20.8521 5.09667 20.6836C5.47969 16.4397 8.46729 9.8057 9.76957 9.19286C10.5969 9.19286 11.2251 9.28479 11.7919 9.36139C8.57454 12.9005 7.30289 18.4467 6.85858 21.2505M14.2893 18.3855C13.8829 18.3855 13.4932 18.224 13.2059 17.9367C12.9186 17.6494 12.7572 17.2597 12.7572 16.8534C12.7572 16.026 13.4466 15.3213 14.2893 15.3213C14.6956 15.3213 15.0853 15.4827 15.3726 15.77C15.6599 16.0573 15.8214 16.447 15.8214 16.8534C15.8214 17.7113 15.1319 18.3855 14.2893 18.3855ZM23.4819 18.3855C23.0755 18.3855 22.6858 18.224 22.3985 17.9367C22.1112 17.6494 21.9498 17.2597 21.9498 16.8534C21.9498 16.026 22.6392 15.3213 23.4819 15.3213C23.8882 15.3213 24.2779 15.4827 24.5652 15.77C24.8525 16.0573 25.014 16.447 25.014 16.8534C25.014 17.7113 24.3245 18.3855 23.4819 18.3855ZM30.9125 21.2505C30.4682 18.4467 29.1966 12.9005 25.9792 9.36139C26.5461 9.28479 27.1742 9.19286 28.0016 9.19286C29.3038 9.8057 32.2914 16.4397 32.6745 20.6836C32.2914 20.8521 31.6939 21.0666 30.9125 21.2505V21.2505Z"
                                                 fill="#6933A0" />
-                                        </svg><span>Learn positive bevaviour from other dogs </span></li>
+                                        </svg><span>Confidence building </span></li>
                                     <li><svg xmlns="http://www.w3.org/2000/svg" width="38" height="37"
                                             viewBox="0 0 38 37" fill="none">
                                             <path
                                                 d="M28.0782 6.12866C25.4583 6.12866 23.8649 6.63426 22.9456 7.06324C21.7659 6.48105 20.4177 6.12866 18.8856 6.12866C17.3535 6.12866 16.0052 6.48105 14.8255 7.06324C13.9062 6.63426 12.3129 6.12866 9.69297 6.12866C5.09667 6.12866 2.03247 18.3855 2.03247 21.4497C2.03247 22.7213 4.05484 23.8857 6.84326 24.3606C7.82381 27.7925 12.4507 30.4124 18.1195 30.6423V24.0849C17.2156 23.518 15.8214 22.4915 15.8214 21.4497C15.8214 19.9176 18.8856 19.9176 18.8856 19.9176C18.8856 19.9176 21.9498 19.9176 21.9498 21.4497C21.9498 22.4915 20.5556 23.518 19.6516 24.0849V30.6423C25.3204 30.4124 29.9473 27.7925 30.9279 24.3606C33.7163 23.8857 35.7387 22.7213 35.7387 21.4497C35.7387 18.3855 32.6745 6.12866 28.0782 6.12866ZM6.85858 21.2505C6.09253 21.0666 5.49502 20.8521 5.09667 20.6836C5.47969 16.4397 8.46729 9.8057 9.76957 9.19286C10.5969 9.19286 11.2251 9.28479 11.7919 9.36139C8.57454 12.9005 7.30289 18.4467 6.85858 21.2505M14.2893 18.3855C13.8829 18.3855 13.4932 18.224 13.2059 17.9367C12.9186 17.6494 12.7572 17.2597 12.7572 16.8534C12.7572 16.026 13.4466 15.3213 14.2893 15.3213C14.6956 15.3213 15.0853 15.4827 15.3726 15.77C15.6599 16.0573 15.8214 16.447 15.8214 16.8534C15.8214 17.7113 15.1319 18.3855 14.2893 18.3855ZM23.4819 18.3855C23.0755 18.3855 22.6858 18.224 22.3985 17.9367C22.1112 17.6494 21.9498 17.2597 21.9498 16.8534C21.9498 16.026 22.6392 15.3213 23.4819 15.3213C23.8882 15.3213 24.2779 15.4827 24.5652 15.77C24.8525 16.0573 25.014 16.447 25.014 16.8534C25.014 17.7113 24.3245 18.3855 23.4819 18.3855ZM30.9125 21.2505C30.4682 18.4467 29.1966 12.9005 25.9792 9.36139C26.5461 9.28479 27.1742 9.19286 28.0016 9.19286C29.3038 9.8057 32.2914 16.4397 32.6745 20.6836C32.2914 20.8521 31.6939 21.0666 30.9125 21.2505V21.2505Z"
                                                 fill="#6933A0" />
-                                        </svg><span>Learn recall </span></li>
+                                        </svg><span>Basic command training </span></li>
                                     <li><svg xmlns="http://www.w3.org/2000/svg" width="38" height="37"
                                             viewBox="0 0 38 37" fill="none">
                                             <path
                                                 d="M28.0782 6.12866C25.4583 6.12866 23.8649 6.63426 22.9456 7.06324C21.7659 6.48105 20.4177 6.12866 18.8856 6.12866C17.3535 6.12866 16.0052 6.48105 14.8255 7.06324C13.9062 6.63426 12.3129 6.12866 9.69297 6.12866C5.09667 6.12866 2.03247 18.3855 2.03247 21.4497C2.03247 22.7213 4.05484 23.8857 6.84326 24.3606C7.82381 27.7925 12.4507 30.4124 18.1195 30.6423V24.0849C17.2156 23.518 15.8214 22.4915 15.8214 21.4497C15.8214 19.9176 18.8856 19.9176 18.8856 19.9176C18.8856 19.9176 21.9498 19.9176 21.9498 21.4497C21.9498 22.4915 20.5556 23.518 19.6516 24.0849V30.6423C25.3204 30.4124 29.9473 27.7925 30.9279 24.3606C33.7163 23.8857 35.7387 22.7213 35.7387 21.4497C35.7387 18.3855 32.6745 6.12866 28.0782 6.12866ZM6.85858 21.2505C6.09253 21.0666 5.49502 20.8521 5.09667 20.6836C5.47969 16.4397 8.46729 9.8057 9.76957 9.19286C10.5969 9.19286 11.2251 9.28479 11.7919 9.36139C8.57454 12.9005 7.30289 18.4467 6.85858 21.2505M14.2893 18.3855C13.8829 18.3855 13.4932 18.224 13.2059 17.9367C12.9186 17.6494 12.7572 17.2597 12.7572 16.8534C12.7572 16.026 13.4466 15.3213 14.2893 15.3213C14.6956 15.3213 15.0853 15.4827 15.3726 15.77C15.6599 16.0573 15.8214 16.447 15.8214 16.8534C15.8214 17.7113 15.1319 18.3855 14.2893 18.3855ZM23.4819 18.3855C23.0755 18.3855 22.6858 18.224 22.3985 17.9367C22.1112 17.6494 21.9498 17.2597 21.9498 16.8534C21.9498 16.026 22.6392 15.3213 23.4819 15.3213C23.8882 15.3213 24.2779 15.4827 24.5652 15.77C24.8525 16.0573 25.014 16.447 25.014 16.8534C25.014 17.7113 24.3245 18.3855 23.4819 18.3855ZM30.9125 21.2505C30.4682 18.4467 29.1966 12.9005 25.9792 9.36139C26.5461 9.28479 27.1742 9.19286 28.0016 9.19286C29.3038 9.8057 32.2914 16.4397 32.6745 20.6836C32.2914 20.8521 31.6939 21.0666 30.9125 21.2505V21.2505Z"
                                                 fill="#6933A0" />
-                                        </svg><span>Exposure to other sights, sounds, smells and experiences </span>
+                                        </svg><span>Learn impulse control and maintain positive behaviour </span>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="benefit__card--readmore-link">
-                                <a href="">Read More</a>
-                                <h4>Duration</h4>
-                                <p>1 hour</p>
-                            </div>
+
 
                             <div class="benefit__card--rate">
                                 <h4>Rate</h4>
-                                <p>$25/hr for 2 walks a week </p>
+                                <p>$35 for 30 min </p>
                             </div>
 
                         </div>
                     </div>
 
                     <div class="services__benefits">
-                        <div class="services__image--header">
-                            <!-- <img src="static/images/groypwalk.png" alt="group-walk"> -->
+                        <div class="services__image--header" id="backgrnd-img2">
+
                             <h3>Group Walks</h3>
                             <p>$20 or $25/hr</p>
                         </div>
-                        <div class="benefits__card--overlap">
+                        <div class="benefits__card--overlap" id="backgroud-color1">
                             <div class="benefit_card--heading">
                                 <h4>Benefits</h4>
                             </div>
@@ -180,11 +210,6 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="benefit__card--readmore-link">
-                                <a href="">Read More</a>
-                                <h4>Duration</h4>
-                                <p>1 hour</p>
-                            </div>
 
                             <div class="benefit__card--rate">
                                 <h4>Rate</h4>
@@ -193,12 +218,111 @@
 
                         </div>
                     </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="discription-box">
+                <div class="discription-box__list">
+                    <ul>
+                        <li>For every service, I will come to your place of residence </li>
+                        <li> Services are insured by PROfur</li>
+                        <li>Flexible payment methods, which will be discussed during the meet & greet</li>
+                        <li>You will be updated with pictures and videos during their social time.</li>
+                        <li>The use of martingale collars is highly recommended to prevent dogs from getting loose
+                        </li>
+                        <li><b>Please ensure that you are within the service area of Applewood, Rathwood, and
+                                Dixie</b>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- services ends -->
+
+    <!-- map section starts -->
+    <section class="service-map">
+        <div class="container">
+            <div class="service-map__header-map" id="top-padding">
+                <div class="service-map__header">
+                    <h2>Service Map</h2>
+                    <p>Applewood | Rathwood | Dixie</p>
+                </div>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d268169.45909042394!2d-79.79135771564921!3d43.82401530553156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b469fe76b05b7%3A0x3146cbed75966db!2sMississauga%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sin!4v1657879805529!5m2!1sen!2sin"
+                        width="1297" height="924" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+
+                <div class="map__button--center">
+                    <div class="map__Book-Me--button">
+                        <a href="./form.html">Book Me </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- map section ends -->
 
 
+    <!-- footer starts-->
+    <footer>
+        <div class="container">
+            <div class="footer__menu--grid">
+                <div class="footer__menu--logo">
+                    <a href="./index.html"><img src="static/svg/Component 8.svg" alt=""></a>
+                </div>
+                <div class="footer__menu-link">
+                    <ul>
+                        <li>
+                            <h5>Quick Links</h5>
+                        </li>
+                        <li><a href="./form.html">Contact Form </a> </li>
+                        <li> <a href="./gallery.html">Gallery </a></li>
+                        <li> <a href="./testimonial.html">Testimonials</a></li>
+                        <li> <a href="./aboutus.html">About Me</a></li>
+                        <li> <a href="./services-rates.html">Prices</a></li>
+                        <li><a href="./index.html">Service Area Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu-contact--info">
+                    <ul>
+                        <li>
+                            <h5>Contact </h5>
+                        </li>
+                        <li>Email Address: <span><a href=""> parkpawswalking@gmail.com </a></span></li>
+                        <li>Phone Number: <span> <a href=""> 647 229 5252</a> </span></li>
+                        <li>Social Links</li>
+                        <li>
+                            <div class="menu__contact--social-links">
+                                <a href=""><img src="static/svg/Mail.svg" alt=""></a>
+                                <a href=""><img src="static/svg/WhatsApp.svg" alt=""></a>
+                                <a href=""><img src="static/svg/Messenger.svg" alt=""></a>
+                                <a href=""><img src="static/svg/Instagram.svg" alt=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__insured-by-logo">
+                    <ul>
+                        <li>
+                            <h5>Insured by</h5>
+                        </li>
+                        <li> <a href=""><img src="static/png/Layer 1.png" alt=""></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

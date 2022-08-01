@@ -6,56 +6,89 @@
     margin: 0;
     background: $banner;
 
-    .foot-image__image-button {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 54px;
-
-        .foot-image--footshape {
-            Width: 692.94px;
-            Height: 659px;
-
-            img {
-                width: 100%;
-            }
-        }
-
-        .foot-image__button--flex {
+    .container {
+        .foot-image__image-button {
             display: flex;
-            gap: 132px;
-            padding-top: 50px;
-            padding-bottom: 45px;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 54px;
 
-            .button__testimonial {
+            .foot-image--footshape {
+                // Width: 692.94px;
+                // Height: 659px;
 
-                a {
-                    text-decoration: none;
-                    padding: 23px 32px 23px 32px;
-                    color: #34242D;
-                    font-size: 20px;
-                    line-height: 30px;
-                    font-family: $font-2;
-                    font-weight: $normal;
-                    background: $white;
-                    border: 3px solid $cta;
-                    border-radius: 15px;
+                img {
+                    width: 100%;
                 }
             }
 
-            .button__service-rates {
+            .foot-image__button--flex {
+                display: flex;
+                gap: 132px;
+                padding-top: 50px;
+                padding-bottom: 45px;
 
-                a {
-                    text-decoration: none;
-                    padding: 23px 20px 23px 20px;
-                    color: #34242D;
-                    font-size: 20px;
-                    line-height: 30px;
-                    font-family: $font-2;
-                    font-weight: $normal;
-                    background: $white;
-                    border: 3px solid $cta;
-                    border-radius: 15px;
+                .button__testimonial {
+
+                    a {
+                        text-decoration: none;
+                        padding: 23px 32px 23px 32px;
+                        color: #34242D;
+                        font-size: 20px;
+                        line-height: 30px;
+                        font-family: $font-2;
+                        font-weight: $normal;
+                        background: $white;
+                        border: 3px solid $cta;
+                        border-radius: 15px;
+                    }
+                }
+
+                .button__service-rates {
+
+                    a {
+                        text-decoration: none;
+                        padding: 23px 20px 23px 20px;
+                        color: #34242D;
+                        font-size: 20px;
+                        line-height: 30px;
+                        font-family: $font-2;
+                        font-weight: $normal;
+                        background: $white;
+                        border: 3px solid $cta;
+                        border-radius: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-xs) {
+    .foot-image {
+        .container {
+            .foot-image__image-button {
+                .foot-image__button--flex {
+                    display: grid;
+                    gap: 55px;
+                    padding-top: 50px;
+                    padding-bottom: 45px;
+
+                    .button__testimonial {
+                        a {
+                            padding: 15px 19px 15px 19px;
+                            font-size: 14px;
+                            line-height: 25px;
+                        }
+                    }
+
+                    .button__service-rates {
+                        a {
+                            padding: 15px 19px 15px 19px;
+                            font-size: 14px;
+                            line-height: 25px;
+                        }
+                    }
                 }
             }
         }

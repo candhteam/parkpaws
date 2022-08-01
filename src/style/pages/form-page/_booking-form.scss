@@ -1,0 +1,322 @@
+.form-page {
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0;
+    margin: 0;
+    background: $banner;
+
+    .container {
+        .booking-page {
+            width: 100%;
+            height: auto;
+            background-color: $white;
+
+            .booking-page__thanking-message {
+                display: grid;
+                text-align: center;
+                padding-top: 30px;
+
+                .thanking-message__header {
+
+
+                    h5 {
+                        margin: 0;
+                        font-size: 25px;
+                        line-height: 20px;
+                        font-family: $font-3;
+                        color: $secondary;
+                    }
+                }
+
+                .thanking-message {
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    p {
+                        margin: 0;
+                        font-size: 16px;
+                        font-weight: $regular;
+                        font-family: $font-3;
+                        color: #3C3C3C;
+                        width: 667px;
+                        margin-top: 25px;
+                    }
+                }
+            }
+
+            .booking-form__about-you {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                padding-bottom: 30px;
+
+                .booking-form-card {
+                    background: #EEDEFF;
+                    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+                    border-radius: 15px;
+                    height: auto;
+                    padding: 0 80px 0 80px;
+                    margin-top: 50px;
+                    width: 845px;
+
+                    .about-you__header {
+                        padding-top: 30px;
+
+                        h5 {
+                            font-size: 25px;
+                            line-height: 31px;
+                            font-weight: $semi-bold;
+                            color: $cta;
+                            font-family: $font-3;
+                            margin: 0;
+                        }
+                    }
+
+                    .about-you__name-email--grid {
+                        display: grid;
+
+                        .name__field--flex {
+                            display: flex;
+                            gap: 13px;
+
+                            .fist-name__label-input {
+                                display: grid;
+
+                                label {
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    font-weight: $regular;
+                                    font-family: $font-3;
+                                    color: $black;
+                                    padding-bottom: 11px;
+                                    padding-top: 20px;
+
+
+                                }
+
+                                input {
+                                    width: 336px;
+                                    height: 36px;
+                                    padding: 8px 8px 8px 12px;
+                                    border-radius: 8px;
+                                    background-color: $white;
+                                    border: none;
+
+                                    &.age {
+                                        width: 75px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .residence-details {
+                            display: grid;
+                            padding-bottom: 30px;
+
+                            label {
+                                font-size: 18px;
+                                line-height: 22px;
+                                font-weight: $regular;
+                                font-family: $font-3;
+                                color: $black;
+                                padding-bottom: 11px;
+                                padding-top: 20px;
+
+
+                            }
+
+                            input {
+                                width: 336px;
+                                height: 36px;
+                                padding: 8px 8px 8px 12px;
+                                border-radius: 8px;
+                                background-color: $white;
+                                border: none;
+                                font-family: $font-3;
+
+                                &.width {
+                                    width: 682px;
+
+                                }
+
+                            }
+
+                            textarea {
+                                border: none;
+                                height: 200px;
+                                width: 682px;
+                                border-radius: 8px;
+                            }
+                        }
+
+                        .form-radio-button {
+                            padding-top: 20px;
+
+                            p {
+                                font-size: 18px;
+                                line-height: 22px;
+                                font-weight: $bold;
+                                font-family: $font-3;
+                                color: $black;
+                                margin: 0;
+                                padding-bottom: 12px;
+                            }
+
+                            .radio-button--grid {
+                                display: grid;
+                                gap: 12px;
+
+                                .radio__yes-no--flex {
+                                    display: flex;
+                                    gap: 10px;
+
+                                    label {
+                                        font-size: 18px;
+                                        line-height: 22px;
+                                        font-weight: $regular;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .form-page__submit-button {
+                display: flex;
+                justify-content: center;
+
+                .submit--button {
+
+                    padding-top: 30px;
+                    padding-bottom: 40px;
+
+                    a {
+                        background-color: $cta;
+                        padding: 17px 46px 17px 46px;
+                        border-radius: 15px;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: $white;
+                        font-family: $font-3;
+                        font-weight: $semi-bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-sm) {
+    .form-page {
+        .container {
+            .booking-page {
+                .booking-form__about-you {
+                    .booking-form-card {
+
+                        width: 600px;
+
+                        .about-you__name-email--grid {
+                            .name__field--flex {
+
+                                display: grid;
+                                gap: 13px;
+                            }
+
+                            .residence-details {
+                                label {
+                                    font-size: 14px;
+                                }
+
+                                input {
+
+
+                                    &.width {
+                                        width: 500px;
+                                    }
+                                }
+
+                                textarea {
+                                    width: 500px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-xs) {
+    .form-page {
+        .container {
+            .booking-page {
+                .booking-page__thanking-message {
+                    display: grid;
+                    text-align: center;
+                    padding-top: 30px;
+
+                    .thanking-message__header {
+
+
+                        h5 {
+                            margin: 0;
+                            font-size: 18px;
+
+                        }
+                    }
+
+                    .thanking-message {
+
+
+
+                        p {
+                            width: 450px;
+                            font-size: 14px;
+
+                        }
+                    }
+                }
+
+                .booking-form__about-you {
+                    .booking-form-card {
+
+                        width: 450px;
+
+                        .about-you__name-email--grid {
+                            .name__field--flex {
+
+                                display: grid;
+                                gap: 13px;
+                            }
+
+                            .residence-details {
+                                label {
+                                    font-size: 12px;
+                                }
+
+                                input {
+
+
+                                    &.width {
+                                        width: 350px;
+                                    }
+                                }
+
+                                textarea {
+                                    width: 350px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

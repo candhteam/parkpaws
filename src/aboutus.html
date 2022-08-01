@@ -19,30 +19,36 @@
 
     <!-- navbar starts-->
 
+
     <header>
         <div class="container">
-            <div class="navbar__menu--flex">
-                <div class="navbar__menu-logo">
+            <div class="navbar">
+                <div class="logo">
                     <a href=""><img src="static/svg/Component 8.svg" alt="logo-parkpaws"></a>
                 </div>
-                <div class="navbar__menu--list">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li> <a href="">About Me</a></li>
-                        <li> <a href="">Services </a></li>
-                        <li> <a href="">Gallery </a></li>
-                        <li> <a href="">Testimonials </a></li>
-                    </ul>
-                </div>
-                <div class="navbar__menu--button">
-                    <a href="">Book Me</a>
-                </div>
+                <div class="nav-list">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="./aboutus.html" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="./services-rates.html" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="./gallery.html" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="./testimonial.html" class="nav-link">Testimonials</a></li>
 
+                    </ul>
+                    <div class="hamberger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <div class="button nav-menu">
+                    <a href="./form.html">Book Me</a>
+                </div>
             </div>
         </div>
     </header>
-    <!-- navbar ends-->
 
+    <!-- navbar ends-->
     <!-- aboutme section start -->
     <section class="about-me">
         <div class="container">
@@ -60,7 +66,7 @@
                         </div>
                     </div>
 
-                    <div class="about-me__card__content background1">
+                    <div class="about-me__card__content" id="background1">
                         <div class="about-me__card--header">
                             <h5>My Passion</h5>
                         </div>
@@ -73,7 +79,7 @@
                         </div>
                     </div>
 
-                    <div class="about-me__card__content background2">
+                    <div class="about-me__card__content" id="background2">
                         <div class="about-me__card--header">
                             <h5>My Experience</h5>
                         </div>
@@ -87,7 +93,7 @@
                         </div>
                     </div>
 
-                    <div class="about-me__card__content background3">
+                    <div class="about-me__card__content" id="background3">
                         <div class="about-me__card--header">
                             <h5>My Process</h5>
                         </div>
@@ -102,10 +108,10 @@
                 </div>
                 <div class="about-me__image--flex">
                     <div class="about-me__image--large-card">
-                        <!-- <img src="static/images/Agnes About me photo.png" alt="about-me"> -->
+                        <img src="static/images/Agnes About me photo.png" alt="about-me">
                     </div>
                     <div class="about-me__image--small-card">
-                        <!-- <img src="static/images/photo 2.png" alt="about-me"> -->
+                        <img src="static/images/photo 2.png" alt="about-me">
                     </div>
                 </div>
             </div>
@@ -115,16 +121,18 @@
 
     <!-- foot image starts -->
     <section class="foot-image">
-        <div class="foot-image__image-button">
-            <div class="foot-image--footshape">
-                <img src="static/png/Vector.png" alt="footimage">
-            </div>
-            <div class="foot-image__button--flex">
-                <div class="button__testimonial">
-                    <a href="">Read Testimonials</a>
+        <div class="container">
+            <div class="foot-image__image-button">
+                <div class="foot-image--footshape">
+                    <img src="static/png/Vector.png" alt="footimage">
                 </div>
-                <div class="button__service-rates">
-                    <a href="">Read Testimonials</a>
+                <div class="foot-image__button--flex">
+                    <div class="button__testimonial">
+                        <a href="./testimonial.html">Read Testimonials</a>
+                    </div>
+                    <div class="button__service-rates">
+                        <a href="./services-rates.html">See Services & Rates</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -146,12 +154,12 @@
                         <li>
                             <h5>Quick Links</h5>
                         </li>
-                        <li><a href="">Contact Form </a> </li>
-                        <li> <a href="">Gallery </a></li>
-                        <li> <a href="">Testimonials</a></li>
-                        <li> <a href="">About Me</a></li>
-                        <li> <a href="">Prices</a></li>
-                        <li><a href="">Service Area Map</a></li>
+                        <li><a href="./form.html">Contact Form </a> </li>
+                        <li> <a href="./gallery.html">Gallery </a></li>
+                        <li> <a href="./testimonial.html">Testimonials</a></li>
+                        <li> <a href="./aboutus.html">About Me</a></li>
+                        <li> <a href="./services-rates.html">Prices</a></li>
+                        <li><a href="./index.html">Service Area Map</a></li>
                     </ul>
                 </div>
                 <div class="footer__menu-contact--info">

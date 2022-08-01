@@ -5,23 +5,26 @@
     left: 0;
     margin: 0;
     background: $banner;
+    padding-top: 115px;
 
     .container {
         .home-banner__image-heading {
             display: flex;
             gap: 15px;
+            text-align: center;
+            justify-content: center;
 
             .home-banner__image {
-                width: 681.21px;
-                height: 652.79px;
+                // width: 681.21px;
+                // height: 652.79px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
 
                 .home-banner__image--radius {
-                    width: 681.21px;
-                    height: 652.79px;
+                    // width: 681.21px;
+                    // height: 652.79px;
 
                     img {
                         width: 600px;
@@ -36,6 +39,7 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                align-items: center;
 
                 h1 {
                     font-size: 50px;
@@ -78,6 +82,47 @@
     }
 }
 
+@media (max-width:$media-xlg) {
+    .home-banner {
+        .container {
+            .home-banner__image-heading {
+                display: flex;
+                gap: 10px;
+
+
+                .home-banner__header {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    h1 {
+                        font-size: 45px;
+                        line-height: 50px;
+
+
+                    }
+
+                    p {
+                        font-size: 22px;
+                        line-height: 20px;
+
+                    }
+
+                    .home-banner__book-me--button {
+
+
+                        a {
+                            font-size: 16px;
+                            line-height: 20px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width:$media-md) {
     .home-banner {
         .container {
@@ -91,13 +136,13 @@
 
 
                     .home-banner__image--radius {
-                        // width: 681.21px;
-                        // height: 652.79px;
+                        // width: 650.21px;
+                        // height: 620.79px;
 
                         img {
-                            width: 500px;
-                            height: 500px;
-                            border-radius: 50%;
+                            // width: 500px;
+                            // height: 500px;
+                            // border-radius: 50%;
                         }
 
                     }
@@ -109,15 +154,15 @@
                     justify-content: center;
 
                     h1 {
-                        font-size: 40px;
-                        line-height: 50px;
+                        font-size: 38px;
+                        line-height: 40px;
 
 
                     }
 
                     p {
-                        font-size: 20px;
-                        line-height: 25px;
+                        font-size: 18px;
+                        line-height: 23px;
 
                     }
 
@@ -125,8 +170,124 @@
 
 
                         a {
-                            font-size: 16px;
-                            line-height: 20px;
+                            font-size: 15px;
+                            line-height: 18px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-sm) {
+    .home-banner {
+        .container {
+            .home-banner__image-heading {
+                display: grid;
+                gap: 10px;
+
+
+                .home-banner__image {
+                    // width: 681.21px;
+                    // height: 652.79px;
+
+
+                    .home-banner__image--radius {
+                        // width: 460.21px;
+                        height: auto;
+
+
+                        img {}
+
+                    }
+                }
+
+                .home-banner__header {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    h1 {
+                        font-size: 34px;
+                        line-height: 38px;
+
+
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 23px;
+
+                    }
+
+                    .home-banner__book-me--button {
+
+
+                        a {
+                            font-size: 14px;
+                            line-height: 18px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-xs) {
+    .home-banner {
+        .container {
+            .home-banner__image-heading {
+                display: grid;
+                gap: 10px;
+
+                .home-banner__image {
+
+                    height: auto;
+
+
+                    .home-banner__image--radius {
+                        // width: 300px;
+                        // height: 350.79px;
+
+                        img {
+                            width: 300px;
+                            height: 300px;
+                            border-radius: 50%;
+                        }
+
+                    }
+                }
+
+                .home-banner__header {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    h1 {
+                        font-size: 30px;
+                        line-height: 33px;
+
+
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 23px;
+
+                    }
+
+                    .home-banner__book-me--button {
+
+
+                        a {
+                            font-size: 14px;
+                            line-height: 18px;
 
                         }
                     }

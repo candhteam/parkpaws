@@ -57,11 +57,11 @@
                         &::after {
                             content: "";
                             position: absolute;
-                            width: 257px;
+                            width: 213px;
                             height: 3px;
                             background-color: $line;
                             top: 25px;
-                            left: -43%;
+                            left: -42%;
                             z-index: 0;
                         }
 
@@ -155,7 +155,8 @@
                             &::before {}
 
                             &::after {
-                                width: 231px;
+                                width: 186px;
+                                left: -41%;
 
                             }
 
@@ -171,6 +172,7 @@
     }
 }
 
+// 1200///////
 @media (max-width:$media-lg) {
     .how-it-works {
         .container {
@@ -183,8 +185,8 @@
                             &::before {}
 
                             &::after {
-                                width: 181px;
-                                left: -40%;
+                                width: 155px;
+                                left: -39%;
                             }
 
                             &:first-child::after {
@@ -211,12 +213,135 @@
                             &::before {}
 
                             &::after {
-                                width: 141px;
-                                left: -39%;
+                                width: 118px;
+                                left: -37%;
                             }
 
                             &:first-child::after {
                                 content: none;
+
+                            }
+                        }
+                    }
+                }
+
+                .how-it-works__image-discription--flex {
+                    .how-it-works__card--grid {
+                        .how-it-works__card--svg {
+                            // max-width: 120px;
+
+                            // max-height: 110px;
+
+                        }
+
+                        .card__header-discription {
+
+                            p {
+                                font-size: 20px;
+                                line-height: 25px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-sm) {
+    .how-it-works {
+        .container {
+            .how-it-works__wrapper--grid {
+                .how-it-works__process-steps {
+                    .how-it-works__progressbar {
+                        li {
+
+
+                            &::before {}
+
+                            &::after {
+                                width: 71px;
+                                left: -33%;
+                            }
+
+                            &:first-child::after {
+                                content: none;
+
+                            }
+                        }
+                    }
+                }
+
+                .how-it-works__image-discription--flex {
+                    display: flex;
+                    padding-top: 25px;
+                    overflow: scroll;
+
+                    .how-it-works__card--grid {
+
+
+                        .how-it-works__card--svg {
+                            max-width: 83px;
+                            max-height: 83px;
+                        }
+
+                        .card__header-discription {
+
+
+                            p {
+                                font-size: 19px;
+                                line-height: 25px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-xs) {
+    .how-it-works {
+        .container {
+            .how-it-works__wrapper--grid {
+                .how-it-works__process-steps {
+                    .how-it-works__progressbar {
+                        li {
+
+
+                            &::before {}
+
+                            &::after {
+                                width: 40px;
+                                left: -26%;
+                            }
+
+                            &:first-child::after {
+                                content: none;
+
+                            }
+                        }
+                    }
+                }
+
+                .how-it-works__image-discription--flex {
+                    display: flex;
+                    padding-top: 25px;
+                    overflow: scroll;
+
+                    .how-it-works__card--grid {
+
+
+                        .how-it-works__card--svg {}
+
+                        .card__header-discription {
+
+
+                            p {
+                                font-size: 24px;
+                                line-height: 30px;
 
                             }
                         }

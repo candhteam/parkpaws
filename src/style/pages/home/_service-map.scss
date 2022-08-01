@@ -10,6 +10,10 @@
 
             padding-top: 118px;
 
+            &#top-padding {
+                padding-top: 942px;
+            }
+
             .service-map__header {
                 display: flex;
                 flex-direction: column;
@@ -40,7 +44,7 @@
                 justify-content: center;
 
                 iframe {
-                    // width: 100%;
+                    width: 100%;
 
                 }
             }

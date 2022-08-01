@@ -46,7 +46,12 @@
 
 
                     .photo__image--radius {
-                        img {}
+                        // width: 416.12px;
+                        // height: 346.99px;
+
+                        // img {
+                        //     width: 100%;
+                        // }
                     }
                 }
 
@@ -103,6 +108,31 @@
                         display: grid;
                         grid-template-columns: repeat(2, 0.5fr);
                         gap: 17px;
+
+
+                        .photo__image--radius {
+                            img {}
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-sm) {
+
+    .Photos {
+        .container {
+            .Photos__wrapper--grid {
+
+                .photo-collection--center {
+
+
+                    .photo-collection--grid {
+                        display: flex;
+                        overflow: scroll;
 
 
                         .photo__image--radius {

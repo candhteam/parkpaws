@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Park Paws</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:wght@500&family=Quicksand:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar starts-->
+
+
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href=""><img src="static/svg/Component 8.svg" alt="logo-parkpaws"></a>
+                </div>
+                <div class="nav-list">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="./aboutus.html" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="./services-rates.html" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="./gallery.html" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="./testimonial.html" class="nav-link">Testimonials</a></li>
+
+                    </ul>
+                    <div class="hamberger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <div class="button nav-menu">
+                    <a href="./form.html">Book Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar ends-->
+    <section class="form-page">
+        <div class="container">
+            <div class="booking-page">
+                <div class="booking-page__thanking-message">
+                    <div class="thanking-message__header">
+                        <h5>Thank you for your interest! </h5>
+                    </div>
+                    <div class="thanking-message">
+                        <p> Please fill in this form so I can help you with your dog care needs.</p>
+                        <p>  We will go into more detail during our initial meeting (via a phone call) and during a
+                            physical meet & greet.</p>
+                    </div>
+
+                </div>
+                <div class="booking-form__about-you">
+                    <div class="booking-form-card">
+                        <div class="about-you__header">
+                            <h5>About You</h5>
+                        </div>
+
+                        <div class="about-you__name-email--grid">
+                            <div class="name__field--flex">
+                                <div class="fist-name__label-input">
+                                    <label for="">Name</label>
+                                    <input type="text" placeholder="Preferred Name">
+                                </div>
+                                <div class="fist-name__label-input">
+                                    <label for="">last </label>
+                                    <input type="text" placeholder="Family Name">
+                                </div>
+                            </div>
+                            <div class="name__field--flex">
+                                <div class="fist-name__label-input">
+                                    <label for="">Email</label>
+                                    <input type="text" placeholder="janedoe123@gmail.com">
+                                </div>
+                                <div class="fist-name__label-input">
+                                    <label for="">Phone </label>
+                                    <input type="text" placeholder="xxx-xxx-xxxx">
+                                </div>
+                            </div>
+                            <div class="residence-details">
+                                <label for="">What’s your nearest intersection?</label>
+                                <input type="text" placeholder="Bloor & Tomken">
+                                <label for="">What type of residence are you in?</label>
+                                <input type="text" placeholder="Apartment unit">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="booking-form-card">
+                        <div class="about-you__header">
+                            <h5>About your Dog</h5>
+                        </div>
+
+                        <div class="about-you__name-email--grid">
+                            <div class="name__field--flex">
+                                <div class="fist-name__label-input">
+                                    <label for="">Name</label>
+                                    <input type="text" placeholder="Luna">
+                                </div>
+
+                            </div>
+                            <div class="name__field--flex">
+                                <div class="fist-name__label-input">
+                                    <label for="">Breed*</label>
+                                    <input type="text" placeholder="Portuguese Waterdog">
+                                </div>
+                                <div class="fist-name__label-input">
+                                    <label for="">Age* </label>
+                                    <input type="text" placeholder="3 yrs" class="age">
+                                </div>
+                            </div>
+                            <div class="form-radio-button">
+                                <p> Is your dog fixed/neutered?</p>
+                                <div class="radio-button--grid">
+                                    <div class="radio__yes-no--flex">
+                                        <input type="radio" id="contactChoice1" name="contact" value="email"> <label
+                                            for="Choice1">Yes</label>
+                                    </div>
+                                    <div class="radio__yes-no--flex">
+                                        <input type="radio" id="contactChoice2" name="contact" value="phone"> <label
+                                            for="Choice2">No</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="booking-form-card">
+                        <div class="about-you__header">
+                            <h5>About your Dog</h5>
+                        </div>
+
+                        <div class="about-you__name-email--grid">
+                            <div class="form-radio-button">
+                                <p> Which service do you need?</p>
+                                <div class="radio-button--grid">
+                                    <div class="radio__yes-no--flex">
+                                        <input type="radio" id="contactChoice1" name="contact" value="email"> <label
+                                            for="Choice1">Group Walk ($20 or $25/hr depending on frequency)</label>
+                                    </div>
+                                    <div class="radio__yes-no--flex">
+                                        <input type="radio" id="contactChoice2" name="contact" value="phone"> <label
+                                            for="Choice2">Private Training Walk ($ 35/30 mins)</label>
+                                    </div>
+                                    <div class="radio__yes-no--flex">
+                                        <input type="radio" id="contactChoice2" name="contact" value="phone"> <label
+                                            for="Choice2">Puppy visit ($15/15 mins)</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="residence-details">
+                                <label for="">How often will you need this service? (minimum 2 walks a week for group
+                                    walks)</label>
+                                <input type="text" placeholder="5 times a week" class="width">
+                                <label for="">When is the best time to contact you?*</label>
+                                <input type="text" placeholder=" after 5 pm on weekdays/after noon weekends"
+                                    class="width">
+                                <label for="">Additional details or questions you would like to discuss or a personal
+                                    message </label>
+                                <textarea name="" id="height"
+                                    placeholder="dog personality, special needs, inquiries about experience etc. "></textarea>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-page__submit-button">
+                    <div class="submit--button">
+                        <a href="./confirmation.html">Submit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer starts -->
+    <footer>
+        <div class="container">
+            <div class="footer__menu--grid">
+                <div class="footer__menu--logo">
+                    <a href=""><img src="static/svg/Component 8.svg" alt=""></a>
+                </div>
+                <div class="footer__menu-link">
+                    <ul>
+                        <li>
+                            <h5>Quick Links</h5>
+                        </li>
+                        <li><a href="./form.html">Contact Form </a> </li>
+                        <li> <a href="./gallery.html">Gallery </a></li>
+                        <li> <a href="./testimonial.html">Testimonials</a></li>
+                        <li> <a href="./aboutus.html">About Me</a></li>
+                        <li> <a href="./services-rates.html">Prices</a></li>
+                        <li><a href="./index.html">Service Area Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu-contact--info">
+                    <ul>
+                        <li>
+                            <h5>Contact </h5>
+                        </li>
+                        <li>Email Address: <span><a href=""> parkpawswalking@gmail.com </a></span></li>
+                        <li>Phone Number: <span> <a href=""> 647 229 5252</a> </span></li>
+                        <li>Social Links</li>
+                        <li>
+                            <div class="menu__contact--social-links">
+                                <a href=""><img src="static/svg/Mail.svg" alt=""></a>
+                                <a href=""><img src="static/svg/WhatsApp.svg" alt=""></a>
+                                <a href=""><img src="static/svg/Messenger.svg" alt=""></a>
+                                <a href=""><img src="static/svg/Instagram.svg" alt=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__insured-by-logo">
+                    <ul>
+                        <li>
+                            <h5>Insured by</h5>
+                        </li>
+                        <li> <a href=""><img src="static/png/Layer 1.png" alt=""></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+</body>
+
+</html>

@@ -5,23 +5,37 @@
     left: 0;
     margin: 0;
     background: $banner;
+    padding-top: 115px;
 
     .container {
         .about-me--grid {
             display: grid;
             grid-template-columns: repeat(2, 0.5fr);
+            width: 100%;
+            gap: 20px;
 
             .about-me__card--flex {
-                display: flex;
-                flex-direction: column;
-                gap: 35px;
-                align-items: center;
+                display: grid;
+
+                row-gap: 16px;
 
                 .about-me__card__content {
-                    width: 630px;
+                    // width: 630px;
                     height: auto;
                     background: #D8E7FE;
                     border-radius: 15px;
+
+                    &#background1 {
+                        background: #EEDEFF;
+                    }
+
+                    &#background2 {
+                        background: #FFE0EB;
+                    }
+
+                    &#background3 {
+                        background: $white;
+                    }
 
                     .background3 {
                         background-color: $cta;
@@ -61,24 +75,145 @@
             }
 
             .about-me__image--flex {
-                display: flex;
-                flex-direction: column;
-                gap: 35px;
+                display: grid;
+
 
                 .about-me__image--large-card {
-                    width: 620px;
-                    height: 903px;
-                    background-image: url('../static/images/Agnes About me photo.png');
-                    background-repeat: no-repeat;
-                    background-size: cover;
+
+                    // width: 620px;
+                    // height: 903px;
+                    // background-image: url('../static/images/Agnes About me photo.png');
+                    // background-repeat: no-repeat;
+                    // background-size: cover;
+                    img {
+                        // width: 100%;
+                    }
                 }
 
                 .about-me__image--small-card {
-                    width: 630px;
-                    height: 320px;
-                    background-image: url('../static/images/photo 2.png');
-                    background-repeat: no-repeat;
-                    background-size: cover;
+                    // width: 630px;
+                    // height: 320px;
+                    // background-image: url('../static/images/photo 2.png');
+                    // background-repeat: no-repeat;
+                    // background-size: cover;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-lg) {
+    .about-me {
+        .container {
+            .about-me--grid {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+                gap: 20px;
+
+                .about-me__card--flex {
+                    display: grid;
+
+                    row-gap: 16px;
+
+                    .about-me__card__content {
+
+
+                        .about-me__card--header {
+
+                            display: flex;
+
+
+                            h5 {
+                                font-size: 25px;
+
+                            }
+                        }
+
+                        .about-me__card--discription {
+
+                            p {
+                                font-size: 20px;
+                                line-height: 25px;
+
+                            }
+                        }
+                    }
+                }
+
+                .about-me__image--flex {
+
+                    display: grid;
+                    text-align: center;
+
+                    .about-me__image--large-card {}
+
+                    .about-me__image--small-card {}
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$media-xs) {
+    .about-me {
+        .container {
+            .about-me--grid {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+                gap: 20px;
+
+                .about-me__card--flex {
+                    display: grid;
+
+                    row-gap: 16px;
+
+                    .about-me__card__content {
+
+
+                        .about-me__card--header {
+
+                            display: flex;
+
+
+                            h5 {
+                                font-size: 25px;
+
+                            }
+                        }
+
+                        .about-me__card--discription {
+
+                            p {
+                                font-size: 20px;
+                                line-height: 25px;
+
+                            }
+                        }
+                    }
+                }
+
+                .about-me__image--flex {
+
+                    display: grid;
+                    text-align: center;
+
+                    .about-me__image--large-card {
+                        max-width: 500px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .about-me__image--small-card {
+                        max-width: 500px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
                 }
             }
         }
